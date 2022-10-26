@@ -36,6 +36,22 @@ const mensajeError = {
     valueMissing: 'Este campo no puede estar vacio',
     customError: 'Debes tener al menos 18 años',
   },
+  numero: {
+    valueMissing: 'Este campo no puede estar vacio',
+    patternMismatch: 'El patrón requerido es xxxxxxxxxx',
+  },
+  direccion: {
+    valueMissing: 'Este campo no puede estar vacio',
+    patternMismatch: 'La direccion debe contener entre 10 y 40 caracteres',
+  },
+  ciudad: {
+    valueMissing: 'Este campo no puede estar vacio',
+    patternMismatch: 'La ciudad debe contener entre 10 y 40 caracteres',
+  },
+  estado: {
+    valueMissing: 'Este campo no puede estar vacio',
+    patternMismatch: 'La direccion debe contener entre 10 y 40 caracteres',
+  },
 };
 
 const mostrarMensajeError = (tipoInput, input) => {
